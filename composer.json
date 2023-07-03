@@ -1,0 +1,17 @@
+{
+    "name": "fishpig/magento2-wordpress-integration-noxmlsitemapintegration",
+    "description": "",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FishPig\\WordPress_NoXmlSitemapIntegration\\": ""
+        }
+    },
+    "require": {
+        "fishpig/magento2-wordpress-integration": "^3.0"
+    }
+}
